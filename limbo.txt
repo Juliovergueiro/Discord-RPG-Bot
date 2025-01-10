@@ -1,0 +1,17 @@
+Formula de Dano +0.5 p kd pt de acerto (iniciando com 0.5)
+
+if(TesteAcerto > TD){
+
+Vdadano = TD
+
+}
+
+if(TesteAcerto > TL){
+
+Vdalet = TL
+
+}
+
+let Vdadanomultipl = Math.floor(0.5 + (Vdadano*0.5))
+
+let Vdaletmultipl = Math.floor(0.5 + (Vdalet*0.5))
